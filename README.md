@@ -1,6 +1,17 @@
 # Hand Tracking and Recognition Project
 
-This project uses computer vision and machine learning techniques to track and recognize hand movements using Flask and Unity. The Flask application implements hand tracking using OpenCV and provides a REST API endpoint for sending hand tracking data to the Unity client. The Unity client listens to the Flask server and uses the hand tracking data to control a virtual hand in the scene.
+This project is a computer vision and machine learning application that tracks and recognizes hand movements using Flask and Unity. The application uses OpenCV for hand tracking and provides a REST API endpoint for sending hand tracking data to the Unity client. The Unity client listens to the Flask server and uses the hand tracking data to control a virtual hand in the scene.
+
+## Introduction
+
+Hand tracking and recognition has become an increasingly popular area of research and development, with a wide range of potential applications in fields such as robotics, virtual reality, and gaming. This project aims to demonstrate how computer vision and machine learning techniques can be used to track and recognize hand movements in real-time using Flask and Unity.
+
+The Flask application provides an API endpoint for sending hand tracking data to the Unity client, which can be used to control a virtual hand in the Unity scene. The hand tracking data is processed in real-time using OpenCV, which provides a robust and efficient method for detecting and tracking the hand.
+
+The Unity client listens to the Flask server and uses the hand tracking data to control the virtual hand in the scene. The client also provides a user interface for interacting with the virtual environment and visualizing the hand tracking data in real-time.
+
+This project is intended as a proof-of-concept for the use of computer vision and machine learning in hand tracking and recognition, and can be easily extended and modified to fit different use cases and applications.
+
 
 ## Installation
 
