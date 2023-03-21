@@ -49,29 +49,30 @@ public class PlayerController : MonoBehaviour
         {
             horizontal = Time.deltaTime * MovementSpeed* -1;
         }
-        if (deCoder.ThisFingersisup(0) && deCoder.ThisFingersisdown(1,2,3,4))
-        {
-            if (deCoder.ThisFingersisup(6) && deCoder.ThisFingersisdown(5,7,8,9))
-            {
-                xRotation += Time.deltaTime * RotationSpeed;
+        // if (deCoder.ThisFingersisup(0) && deCoder.ThisFingersisdown(1,2,3,4))
+        // {
+        //     if (deCoder.ThisFingersisup(6) && deCoder.ThisFingersisdown(5,7,8,9))
+        //     {
+        //         xRotation += Time.deltaTime * RotationSpeed;
 
-            }
+        //     }
 
-            if (deCoder.ThisFingersisup(6,7) && deCoder.ThisFingersisdown(5,8,9))
-            {
-                xRotation += Time.deltaTime * RotationSpeed * -1;
-            }
+        //     if (deCoder.ThisFingersisup(6,7) && deCoder.ThisFingersisdown(5,8,9))
+        //     {
+        //         xRotation += Time.deltaTime * RotationSpeed * -1;
+        //     }
         
-            if (deCoder.ThisFingersisup(6,7,8) && deCoder.ThisFingersisdown(5,9))
-            {
-                yRotation += Time.deltaTime * RotationSpeed;
-            }
+        //     if (deCoder.ThisFingersisup(6,7,8) && deCoder.ThisFingersisdown(5,9))
+        //     {
+        //         yRotation += Time.deltaTime * RotationSpeed;
+        //     }
         
-            if (deCoder.ThisFingersisup(6,7,8,9) && deCoder.ThisFingersisdown(5))
-            {
-                yRotation += Time.deltaTime * RotationSpeed* -1;
-            }
-        }
+        //     if (deCoder.ThisFingersisup(6,7,8,9) && deCoder.ThisFingersisdown(5))
+        //     {
+        //         yRotation += Time.deltaTime * RotationSpeed* -1;
+        //     }
+        // }
+    
         characterController.Move(transform.forward * vertical + transform.right * horizontal);
         transform.eulerAngles = new Vector3(xRotation, yRotation,0.0f);
         if (characterController.isGrounded){

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931990052053",
+    "project_id": "radhe-developers",
+    "storage_bucket": "radhe-developers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931990052053:android:7d6b62fb28c0150f43d65c",
+        "android_client_info": {
+          "package_name": "come.radhedev1.firebasedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931990052053-gu9le7qcme8omimttmbdodkp9ik5ds6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4O18E1nCfPKRwQ8cEqdfIO9n3fxjLqOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931990052053-gu9le7qcme8omimttmbdodkp9ik5ds6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

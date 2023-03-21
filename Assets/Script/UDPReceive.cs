@@ -18,7 +18,6 @@ public class UDPReceive : MonoBehaviour
 
     public void Start()
     {
-
         receiveThread = new Thread(new ThreadStart(ReceiveData));
         receiveThread.IsBackground = true;
         receiveThread.Start();
@@ -28,7 +27,6 @@ public class UDPReceive : MonoBehaviour
     // receive thread
     private void ReceiveData()
     {
-
         client = new UdpClient(port);
         while (startRecieving)
         {
