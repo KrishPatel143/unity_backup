@@ -1,3 +1,5 @@
+# Radhe Developers
+
 # Hand Tracking and Recognition Project
 
 This project is a computer vision and machine learning application that tracks and recognizes hand movements using Flask and Unity. The application uses OpenCV for hand tracking and provides a REST API endpoint for sending hand tracking data to the Unity client. The Unity client listens to the Flask server and uses the hand tracking data to control a virtual hand in the scene.
