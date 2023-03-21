@@ -19,18 +19,22 @@ This project is intended as a proof-of-concept for the use of computer vision an
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/hand-tracking-project.git
+git clone https://github.com/KrishPatel143/unity_backup.git
+
 
 2. Install the dependencies:
 
 cd hand-tracking-project
 pip install -r requirements.txt
 
+Note: If you encounter any errors during the installation process, it may be due to issues with the cloud server. Please try again later or contact us for support.
+
 3. Launch the Flask application:
 
-python app.py
 
 4. Open the Unity project in the `UnityProject` directory and press the play button to run the application.
+In this example, an error message is added to the installation section to inform users that they may encounter issues during the installation process due to cloud server issues. The message also encourages users to try again later or contact the project team for support if they encounter any issues.
+
 
 ## Usage
 
